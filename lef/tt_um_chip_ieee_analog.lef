@@ -280,12 +280,14 @@ MACRO tt_um_chip_ieee_analog
         RECT 165.685 0.000 167.435 2.000 ;
     END
   END VBG
-  PIN ua[2]
+  PIN Vo1
+    ANTENNAGATEAREA 230.000000 ;
+    ANTENNADIFFAREA 19.722000 ;
     PORT
       LAYER TopMetal1 ;
         RECT 141.205 0.000 142.955 2.000 ;
     END
-  END ua[2]
+  END Vo1
   PIN ua[3]
     PORT
       LAYER TopMetal1 ;
