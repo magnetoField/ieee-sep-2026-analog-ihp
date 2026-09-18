@@ -1,9 +1,9 @@
 # Tiny Tapeout project information
 project:
-  title:        "Analog chipathon winner"      # Project title
+  title:        "IEEE Bandgap Reference"      # Project title
   author:       "Jakub Rachoń"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "This is place holder now"      # One line description of what your project does
+  description:  "IHP Analog Academy BG design example"      # One line description of what your project does
   language:     "Analog" # other examples include Verilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
