@@ -2,9 +2,9 @@ VERSION 5.7 ;
   NOWIREEXTENSIONATPIN ON ;
   DIVIDERCHAR "/" ;
   BUSBITCHARS "[]" ;
-MACRO tt_um_analog_example
+MACRO tt_um_chip_ieee_analog
   CLASS BLOCK ;
-  FOREIGN tt_um_analog_example ;
+  FOREIGN tt_um_chip_ieee_analog ;
   ORIGIN 0.000 0.000 ;
   SIZE 202.080 BY 313.740 ;
   PIN clk
@@ -319,6 +319,8 @@ MACRO tt_um_analog_example
     END
   END ua[7]
   PIN VDPWR
+    DIRECTION INOUT ;
+    USE POWER ;
     ANTENNAGATEAREA 107.743996 ;
     ANTENNADIFFAREA 289.751984 ;
     PORT
@@ -327,6 +329,8 @@ MACRO tt_um_analog_example
     END
   END VDPWR
   PIN VGND
+    DIRECTION INOUT ;
+    USE GROUND ;
     ANTENNADIFFAREA 202.139694 ;
     PORT
       LAYER TopMetal1 ;
@@ -356,6 +360,6 @@ MACRO tt_um_analog_example
         RECT 144.595 2.000 164.045 3.640 ;
         RECT 169.075 2.000 188.525 3.640 ;
   END
-END tt_um_analog_example
+END tt_um_chip_ieee_analog
 END LIBRARY
 
