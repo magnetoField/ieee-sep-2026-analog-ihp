@@ -319,6 +319,8 @@ MACRO tt_um_chip_ieee_analog
     END
   END ua[7]
   PIN VDPWR
+    DIRECTION INOUT ;
+    USE POWER ;
     ANTENNAGATEAREA 107.743996 ;
     ANTENNADIFFAREA 289.751984 ;
     PORT
@@ -327,6 +329,8 @@ MACRO tt_um_chip_ieee_analog
     END
   END VDPWR
   PIN VGND
+    DIRECTION INOUT ;
+    USE GROUND ;
     ANTENNADIFFAREA 202.139694 ;
     PORT
       LAYER TopMetal1 ;
