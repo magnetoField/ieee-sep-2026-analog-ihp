@@ -1,36 +1,15 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg)
 
-# Tiny Tapeout Analog Project Template
+![docs/bandgap_ref.png](docs/bandgap_ref.png)
 
-- [Read the documentation for project](docs/info.md)
+## How it works
 
-## What is Tiny Tapeout?
+It is simple band gap reference. Design was adopted from [https://github.com/IHP-GmbH/IHP-AnalogAcademy/blob/main/modules/module_1_bandgap_reference/part_3_layout/BGR_layout/final_bandgapreference/full_bandgap_layout_filled.gds](https://github.com/IHP-GmbH/IHP-AnalogAcademy/blob/main/modules/module_1_bandgap_reference/part_3_layout/BGR_layout/final_bandgapreference/full_bandgap_layout_filled.gds). Main work was to insert it correctly into IHP PDK grid and take car of its integration into multi project wafer from Tiny Tapout. 
 
-Tiny Tapeout is an educational project that aims to make it easier and cheaper than ever to get your digital designs manufactured on a real chip.
+## How to test
 
-To learn more and get started, visit https://tinytapeout.com.
+Connect 5uA current source to Iout to bias opamp. Check if Vbg voltage is bandgap refernece (aorund 600mV). Check if bandgap reference voltage stays at 600mV over full temperature range -40 to 125 Celcius degries. 
 
-## Analog projects
+## External hardware
 
-For specifications and instructions, see the [analog specs page](https://tinytapeout.com/specs/analog/).
-
-## Enable GitHub actions to build the results page
-
-- [Enabling GitHub Pages](https://tinytapeout.com/faq/#my-github-action-is-failing-on-the-pages-part)
-
-## Resources
-
-- [FAQ](https://tinytapeout.com/faq/)
-- [Digital design lessons](https://tinytapeout.com/digital_design/)
-- [Learn how semiconductors work](https://tinytapeout.com/siliwiz/)
-- [Join the community](https://tinytapeout.com/discord)
-
-## What next?
-
-- [Submit your design to the next shuttle](https://app.tinytapeout.com/).
-- Edit [this README](README.md) and explain your design, how it works, and how to test it.
-- Share your project on your social network of choice:
-  - LinkedIn [#tinytapeout](https://www.linkedin.com/search/results/content/?keywords=%23tinytapeout) [@TinyTapeout](https://www.linkedin.com/company/100708654/)
-  - Mastodon [#tinytapeout](https://chaos.social/tags/tinytapeout) [@matthewvenn](https://chaos.social/@matthewvenn)
-  - X (formerly Twitter) [#tinytapeout](https://twitter.com/hashtag/tinytapeout) [@tinytapeout](https://twitter.com/tinytapeout)
-  - Bluesky [@tinytapeout.com](https://bsky.app/profile/tinytapeout.com)
+Simple current mirror with potentiometer to set 5uA current should do the work.
