@@ -4,7 +4,7 @@
 
 ## How it works
 
-It is simple band gap reference. Design was adopted from [https://github.com/IHP-GmbH/IHP-AnalogAcademy/blob/main/modules/module_1_bandgap_reference/part_3_layout/BGR_layout/final_bandgapreference/full_bandgap_layout_filled.gds](https://github.com/IHP-GmbH/IHP-AnalogAcademy/blob/main/modules/module_1_bandgap_reference/part_3_layout/BGR_layout/final_bandgapreference/full_bandgap_layout_filled.gds). Main work was to insert it correctly into IHP PDK grid and take car of its integration into multi project wafer from Tiny Tapout. 
+It is simple band gap reference. Design was adopted from [https://github.com/IHP-GmbH/IHP-AnalogAcademy/blob/main/modules/module_1_bandgap_reference/part_3_layout/BGR_layout/final_bandgapreference/full_bandgap_layout_filled.gds](https://github.com/IHP-GmbH/IHP-AnalogAcademy/blob/main/modules/module_1_bandgap_reference/part_3_layout/BGR_layout/final_bandgapreference/full_bandgap_layout_filled.gds). Main work was to insert it correctly into IHP PDK grid and take care of its integration into multi project wafer from Tiny Tapout. 
 
 ## How to test
 
